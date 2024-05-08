@@ -2,7 +2,7 @@
 
 julia_version = "1.8.5"
 manifest_format = "2.0"
-project_hash = "09c319c55018e97655b794ae9ffe52f7ffe78fa0"
+project_hash = "4d47e796a4cbb8b0d4b1e34381900457e586b739"
 
 [[deps.AbstractFFTs]]
 deps = ["ChainRulesCore", "LinearAlgebra", "Test"]
@@ -347,6 +347,12 @@ deps = ["Adapt", "CUDA", "CenteredRBMs", "RestrictedBoltzmannMachines", "Standar
 git-tree-sha1 = "d5a5653694006de57f90a7e997c590f071faa080"
 uuid = "4e7460e3-fd1b-4f88-90fa-49c1b80b3e77"
 version = "1.5.6"
+
+[[deps.DSP]]
+deps = ["Compat", "FFTW", "IterTools", "LinearAlgebra", "Polynomials", "Random", "Reexport", "SpecialFunctions", "Statistics"]
+git-tree-sha1 = "f7f4319567fe769debfcf7f8c03d8da1dd4e2fb0"
+uuid = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+version = "0.7.9"
 
 [[deps.DataAPI]]
 git-tree-sha1 = "abe83f3a2f1b857aac70ef8b269080af17764bbe"
